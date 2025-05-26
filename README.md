@@ -8,3 +8,5 @@ In this project I am going to go through Active Directory and it's useful featur
 - Creating Group Policy (password policies and mapping drives)
 - Setting up DHCP and DNS
 - Configuring File Sharing & Permissions
+## Setting a Static IP
+- 
