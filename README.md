@@ -15,7 +15,7 @@ In this project I am going to go through Active Directory and it's useful featur
    
 ![image](https://github.com/user-attachments/assets/4d899861-c16a-47b7-8424-1b95f1377833)
 ## Installing Active Directory tools and configuring a new forest
-1. Go to Dashboard > Add Roles and Features > Click nect until you reach server roles.
+1. Go to Dashboard > Add Roles and Features > Click next until you reach server roles.
 2. Locate Active Directory Domain Services and click it, then click add features
 3. Keep clicking until you reach the install option
 4. ![image](https://github.com/user-attachments/assets/71c33666-c4eb-497a-84cf-39b13067c95d)
