@@ -8,5 +8,5 @@ In this project I am going to go through Active Directory and it's useful featur
 - Creating Group Policy (password policies and mapping drives)
 - Setting up DHCP and DNS
 - Configuring File Sharing & Permissions
-## Setting a Static IP <a href="" target="_blank">Link Text</a>
+## <a href="https://github.com/Msglm05/Active-Directory/blob/main/README.md#setting-a-static-ip-link-text" target="_blank">Setting a Static IP</a>
 - 
