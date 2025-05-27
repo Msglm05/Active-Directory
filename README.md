@@ -19,6 +19,7 @@ In this project I am going to go through Active Directory and it's useful featur
 2. Locate Active Directory Domain Services and click it, then click add features
 3. Keep clicking until you reach the install option
 4. Before we leave this tab, make sure that the "promote this server to a Domain Controller" is clicked is this is what we need to carry out our configurations later on.
+5. With the new page click on add a new forest, then type your root domain name (e.g. mydomain.local). Click next to create a password, then keep clicking next until you reach install.
 
 ![image](https://github.com/user-attachments/assets/71c33666-c4eb-497a-84cf-39b13067c95d)
 ## Creating Organisational units
