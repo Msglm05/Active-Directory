@@ -18,7 +18,23 @@ In this project I am going to go through Active Directory and it's useful featur
 1. Go to Dashboard > Add Roles and Features > Click next until you reach server roles.
 2. Locate Active Directory Domain Services and click it, then click add features
 3. Keep clicking until you reach the install option
-4. ![image](https://github.com/user-attachments/assets/71c33666-c4eb-497a-84cf-39b13067c95d)
+4. Before we leave this tab, make sure that the "promote this server to a Domain Controller" is clicked is this is what we need to carry out our configurations later on.
+
+![image](https://github.com/user-attachments/assets/71c33666-c4eb-497a-84cf-39b13067c95d)
+## Creating Organisational units
+1. Now that your server has Active Directory configured, carry out a windows serach for "Active Directory Users and Computers".
+2. Find your domain name from the lists > right click > New > Organisational Unit
+3. Name your Organisational Unit, for example "Departments"
+4. Under this Parent OU, You can create Sub OU's for your departments with the same process, for example IT.
+5. Then within the IT department you can configure objects such as users, computers, printers etc through the same process.
+ ![image](https://github.com/user-attachments/assets/d985b88d-299b-4a56-a6de-ea2a8653fe66) ![image](https://github.com/user-attachments/assets/28a747a9-7910-4f62-81d2-87ba9d387d59)
+## Joining a Computer to a Domain
+1. For this section, you will need a Windows 10 Pro or Enterprise Virtual Machine configured and running.
+2. Open Ethernet settings > Change adapter options.
+3. The DNS server settings has to be changed here so that the client can establish communication with the Windows server.
+4. Double click Ethernet > properties > TCP/IPV4 > "Use the following DNS server addresses". For preffered DNS, use the Servers IP address and alterate can be 8.8.8.8.   
+
+
 
 
 
