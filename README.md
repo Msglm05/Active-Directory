@@ -27,12 +27,13 @@ In this project I am going to go through Active Directory and it's useful featur
 3. Name your Organisational Unit, for example "Departments"
 4. Under this Parent OU, You can create Sub OU's for your departments with the same process, for example IT.
 5. Then within the IT department you can configure objects such as users, computers, printers etc through the same process.
- ![image](https://github.com/user-attachments/assets/d985b88d-299b-4a56-a6de-ea2a8653fe66) ![image](https://github.com/user-attachments/assets/28a747a9-7910-4f62-81d2-87ba9d387d59)
+   
+![image](https://github.com/user-attachments/assets/d985b88d-299b-4a56-a6de-ea2a8653fe66)![image](https://github.com/user-attachments/assets/28a747a9-7910-4f62-81d2-87ba9d387d59)
 ## Joining a Computer to a Domain
 1. For this section, you will need a Windows 10 Pro or Enterprise Virtual Machine configured and running.
 2. Open Ethernet settings > Change adapter options.
 3. The DNS server settings has to be changed here so that the client can establish communication with the Windows server.
-4. Double click Ethernet > properties > TCP/IPV4 > "Use the following DNS server addresses". For preffered DNS, use the Servers IP address and alterate can be 8.8.8.8.   
+4. Double click Ethernet > properties > TCP/IPV4 > "Use the following DNS server addresses". For preffered DNS, use the Domain Servers IP address and alterate can be 8.8.8.8.   
 
 
 
