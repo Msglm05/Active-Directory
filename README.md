@@ -7,6 +7,7 @@ In this project I am going to go through Active Directory and it's useful featur
 - [Creating Groups](#creating-groups)
 - [Creating Organisational Units](#creating-organisational-units)
 - [Creating Group Policy Objects](#creating-group-policy-objects)
+- [Setting account lockout policy](setting-account-lockout-policy)
   
 ## Setting a Static IP
 1. Go to Local Server on the left hand side of the screen, then click on the IPV4 address hyperlink
