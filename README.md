@@ -33,7 +33,7 @@ In this project I am going to go through Active Directory and it's useful featur
 ![image](https://github.com/user-attachments/assets/735f609c-1e7d-40ed-bceb-872d77045b32)
 ## Creating Groups 
 You can create groups in areas such as the users area under your domain name or areas such as your organisational units.
-1. Locate where you want to create the gorup and right click > Group
+1. Locate where you want to create the group and right click > Group
 2. Enter group name, you can then move created users to this group and set configuartions such as assigning permissions and security policies and more.
 3. For example, for your organisational unit for IT you can assign a group policy object that installs IT Specific software.
 ## Creating Organisational units
