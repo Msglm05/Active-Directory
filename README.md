@@ -3,7 +3,6 @@ In this project I am going to go through Active Directory and it's useful featur
 ## Table of contents
 - [Setting a Static IP](#setting-a-static-ip)
 - [Installing Active Directory tools and configuring a new forest](#instaling-active-directory-tools-and-configuring-a-new-forest)
-- [Setting up a domain name](#setting-up-a-domain-name)
 - [Creating a user](#creating-a-user)
 - [Creating Groups](#creating-groups)
 - [Creating Organisational Units](#creating-organisational-units)
