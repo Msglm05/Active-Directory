@@ -2,7 +2,7 @@
 In this project I am going to go through Active Directory and it's useful features that are important and widely used in IT environments in a variety of use of cases. Some of the topics that are going to be covered in this project are;
 ## Table of contents
 - [Installing Active Directory tools and configuring a new forest](#installing-active-directory-tools-and-configuring-a-new-forest)
-- [Configure network settings for the server](#configure-network-settings-for-the-serverw)
+- [Configure network settings for the server](#configure-network-settings-for-the-server)
 - [Creating a user](#creating-a-user)
 - [Creating Groups](#creating-groups)
 - [Creating Organisational Units](#creating-organisational-units)
