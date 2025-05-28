@@ -1,14 +1,15 @@
 # Active-Directory Project
 In this project I am going to go through Active Directory and it's useful features that are important and widely used in IT environments in a variety of use of cases. Some of the topics that are going to be covered in this project are;
-- Setting a Static IP
-- Installing Active Directory tools and configuring a new forest
-- Setting up a domain name
-- Creating a user
-- Creating Groups
-- Creating Organisational Units
-- Creating User Accounts
-- Creating Group Policy (password policies and mapping drives)
-- Configuring File Sharing & Permissions
+## Table of contents
+- [Setting a Static IP](#setting-a-static-ip)
+- [Installing Active Directory tools and configuring a new forest](instaling active directory tools and configuring a new forest)
+- [Setting up a domain name](#setting up a domain name)
+- [Creating a user](#creating-a-user)
+- [Creating Groups](#creating-groups)
+- [Creating Organisational Units](#creating-organisational-units)
+- [Creating User Accounts](#creating-user-accounts)
+- [Creating Group Policy](#creating-group-policy)
+- [Configuring File Sharing & Permissions](#confiuring-file-sharing-&-permissions)
 ## Setting a Static IP
 1. Go to Local Server on the left hand side of the screen, then click on the IPV4 address hyperlink
 ![Screenshot 2025-05-26 202933](https://github.com/user-attachments/assets/4f9b7104-cdf9-4553-ac1a-ec7b6ce2ec32)
