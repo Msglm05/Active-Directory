@@ -7,7 +7,6 @@ In this project I am going to go through Active Directory and it's useful featur
 - [Creating a user](#creating-a-user)
 - [Creating Groups](#creating-groups)
 - [Creating Organisational Units](#creating-organisational-units)
-- [Creating User Accounts](#creating-user-accounts)
 - [Creating Group Policy](#creating-group-policy)
 - [Configuring File Sharing & Permissions](#confiuring-file-sharing-&-permissions)
 ## Setting a Static IP
