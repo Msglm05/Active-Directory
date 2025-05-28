@@ -1,7 +1,7 @@
 # Active-Directory Project
 In this project I am going to go through Active Directory and it's useful features that are important and widely used in IT environments in a variety of use of cases. Some of the topics that are going to be covered in this project are;
 ## Table of contents
-- [Setting a Static IP](#setting-a-static-ip)
+- [Configure network settings for the server](#configure-network-settings-for-the-serverw)
 - [Installing Active Directory tools and configuring a new forest](#instaling-active-directory-tools-and-configuring-a-new-forest)
 - [Creating a user](#creating-a-user)
 - [Creating Groups](#creating-groups)
@@ -9,7 +9,7 @@ In this project I am going to go through Active Directory and it's useful featur
 - [Creating Group Policy Objects](#creating-group-policy-objects)
 - [Setting account lockout policy](#setting-account-lockout-policy)
   
-## Setting a Static IP
+## Configure network settings for the server
 1. Go to Local Server on the left hand side of the screen, then click on the IPV4 address hyperlink
 ![Screenshot 2025-05-26 202933](https://github.com/user-attachments/assets/4f9b7104-cdf9-4553-ac1a-ec7b6ce2ec32)
 2. Then click on the network adapter and then go to properties, then locate Internet Protocol version 4 and then click it. Here you will have the option to set up the IP Address, Subnet Mask and Default Gateway. You can use the servers current IP address which you would find with ipconfig in command prompt.
