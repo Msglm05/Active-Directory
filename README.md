@@ -7,8 +7,8 @@ In this project I am going to go through Active Directory and it's useful featur
 - [Creating a user](#creating-a-user)
 - [Creating Groups](#creating-groups)
 - [Creating Organisational Units](#creating-organisational-units)
-- [Creating Group Policy](#creating-group-policy)
-- [Configuring File Sharing & Permissions](#confiuring-file-sharing-&-permissions)
+- [Creating Group Policy Objects](#creating-group-policy-objects)
+  
 ## Setting a Static IP
 1. Go to Local Server on the left hand side of the screen, then click on the IPV4 address hyperlink
 ![Screenshot 2025-05-26 202933](https://github.com/user-attachments/assets/4f9b7104-cdf9-4553-ac1a-ec7b6ce2ec32)
@@ -46,7 +46,7 @@ You can create groups in areas such as the users area under your domain name or 
 ## Creating Group Policy Objects 
 1. On the server machiene go to settings, under Administrative Tools select Group Policy Management
 2. Under the domain, go to group policy objects 
-3. For testing purposes, create a folder on a drive of the server machine, foe exame drive C. Right click it > properties > sharing > advanced sharing, here you can share the folder and set permissions.
+3. For testing purposes, create a folder on a drive of the server machine, for example on drive C. Right click the folder that you have created > properties > sharing > advanced sharing, here you can share the folder and set permissions.
    
 ![Screenshot 2025-05-28 074532](https://github.com/user-attachments/assets/f1f6aa2e-9d71-4882-a36d-886cc498e913)
 
