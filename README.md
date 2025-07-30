@@ -45,15 +45,15 @@ You can create groups in areas such as the users area under your domain name or 
 4. Under this Parent OU, You can create Sub OU's for your departments with the same process, for example IT.
 5. Then within the IT department you can configure objects such as users, computers, printers etc through the same process.
 ## Creating Group Policy Objects 
-1. On the server machiene go to settings, under Administrative Tools select Group Policy Management
+1. On the server machine go to settings, under Administrative Tools select Group Policy Management
 2. Under the domain, go to group policy objects 
 3. For testing purposes, create a folder on a drive of the server machine, for example on drive C. Right click the folder that you have created > properties > sharing > advanced sharing, here you can share the folder and set permissions.
    
 ![Screenshot 2025-05-28 074532](https://github.com/user-attachments/assets/f1f6aa2e-9d71-4882-a36d-886cc498e913)
 
-5. Open up Group Policy Management > Under domain locate Group Policy Objects > right click and new > Then name, e.g. Mapped drive
-6. Right click Mapped drive > edit > under User Configuration Expand preferences ? expand Windows Settings > then locate Drive Maps.
-7. Right click empty space > New > Mapped Drive > put in the file path of the shared folder that you created > assign a drive letter and then press apply.
+5. Open up Group Policy Management > Under domain locate Group Policy Objects > right click and new > Then name, e.g. Mapped drive for HR
+6. Right click Mapped drive > edit > under User Configuration Expand preferences > expand Windows Settings > then locate Drive Maps.
+7. Right click empty space > New > Mapped Drive > set the option to create > put in the file path of the shared folder that you created > assign a drive letter and then press apply.
 8. You can then link this Mapped Drive GPO under you Organisational units that you have created in Active directory.
 9. You can do this by locating the OU in the Group Policy Management console > right click > link existing GPO.
 ![Screenshot 2025-05-28 075801](https://github.com/user-attachments/assets/6b961d27-a1c6-49c2-99eb-d31ae8dc7253)
