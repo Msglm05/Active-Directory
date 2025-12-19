@@ -50,6 +50,7 @@ You can create groups in areas such as the users area under your domain name or 
 1. On the server machine go to settings, under Administrative Tools select Group Policy Management
 2. Under the domain, go to group policy objects 
 3. For testing purposes, create a folder on a drive of the server machine, for example on drive C. Right click the folder that you have created > properties > sharing > advanced sharing, here you can share the folder and set permissions.
+4. NTFS Permissions can then be used to enforce what users are able to do with the files/folders
    
 ![Screenshot 2025-05-28 074532](https://github.com/user-attachments/assets/f1f6aa2e-9d71-4882-a36d-886cc498e913)
 
