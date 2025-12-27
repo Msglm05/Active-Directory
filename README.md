@@ -1,5 +1,5 @@
 # Active-Directory Project
-❗More details about another Active Directory project can be found on my Linkedin www.linkedin.com/in/mahmutsaglam under the projects section
+❗More details about another Active Directory project can be found on my Linkedin https://www.linkedin.com/in/mahmutsaglam/details/projects/
 
 In this project I am going to go through Active Directory and it's useful features that are important and widely used in IT environments in a variety of use of cases. Some of the topics that are going to be covered in this project are;
 ## Table of contents
