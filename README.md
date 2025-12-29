@@ -63,7 +63,7 @@ You can create groups in areas such as the users area under your domain name or 
 ## Setting account lockout policy
 1. Create a new GPO called "Account lockout Policy" under your domain in the Group Policy Objects section.
 2. Then right click this GPO > Edit > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy.
-3. Here you can confiure your settings and then link to your desired OU you want this to apply too.
+3. Here you can confiure your settings and apply where you desire.
 ![image](https://github.com/user-attachments/assets/65f1b9ff-0eb6-4456-bf3c-f7af0adc2408)
 
 
