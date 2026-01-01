@@ -13,7 +13,7 @@ In this project I am going to go through Active Directory and it's useful featur
 
 ## Installing Active Directory tools and configuring a new forest
 1. Go to Dashboard > Add Roles and Features > Click next until you reach server roles.
-2. Locate Active Directory Domain Services and click it, then click add features
+2. Locate Active Directory Domain Services, then click add features
 3. Keep clicking until you reach the install option
 4. Before we leave this tab, make sure that the "promote this server to a Domain Controller" is clicked as this is what we need to carry out our configurations later on.
 5. With the new page click on add a new forest, then type your root domain name (e.g. mydomain.local). Click next to create a password, then keep clicking next until you reach install.
@@ -24,9 +24,10 @@ In this project I am going to go through Active Directory and it's useful featur
 ## Configure network settings for the server
 1. Go to Local Server on the left hand side of the screen, then click on the IPV4 address hyperlink
 ![Screenshot 2025-05-26 202933](https://github.com/user-attachments/assets/4f9b7104-cdf9-4553-ac1a-ec7b6ce2ec32)
-2. Then click on the network adapter and then go to properties, then locate Internet Protocol version 4 and then click it. Here you will have the option to set up the IP Address, Subnet Mask and Default Gateway.
+2. Then click on the network adapter and then go to properties, then locate Internet Protocol version 4. Here you will have the option to set up the IP Address, Subnet Mask and Default Gateway.
 
-![image](https://github.com/user-attachments/assets/3d72ec40-71da-4879-8b6d-f0d142b73b38)
+<img width="400" height="650" alt="image" src="https://github.com/user-attachments/assets/2902db49-fb40-4664-bc2d-76c5bdb88b4f" />
+
 ## Creating a user
 1. Do a windows search of Active Directory Users and Computers
 2. Locate your domain name on the left hand side of the panel and expand it
@@ -49,12 +50,12 @@ You can create groups in areas such as the users area under your domain name or 
 ## Creating Group Policy Objects 
 1. On the server machine go to settings, under Administrative Tools select Group Policy Management
 2. Under the domain, go to group policy objects 
-3. For testing purposes, create a folder on a drive of the server machine, for example on drive C. Right click the folder that you have created > properties > sharing > advanced sharing, here you can share the folder and set permissions.
+3. For testing purposes, create a folder on a drive of the server machine, for example on drive C. Right click the folder that you have created > properties > sharing (share over the network) > advanced sharing (NTFS permissions), here you can share the folder and set permissions.
 4. NTFS Permissions can then be used to enforce what users are able to do with the files/folders
    
 ![Screenshot 2025-05-28 074532](https://github.com/user-attachments/assets/f1f6aa2e-9d71-4882-a36d-886cc498e913)
 
-4. Open up Group Policy Management > Under domain locate Group Policy Objects > right click and new > Then name, e.g. Mapped drive for HR
+4. Open up Group Policy Management > under domain locate Group Policy Objects > right click and new > then name, e.g. Mapped drive for HR
 5. Right click Mapped drive > edit > under User Configuration Expand preferences > expand Windows Settings > then locate Drive Maps.
 6. Right click empty space > New > Mapped Drive > set the option to create > put in the file path of the shared folder that you created > assign a drive letter and then press apply.
 7. You can then link this Mapped Drive GPO under you Organisational units that you have created in Active directory.
@@ -64,7 +65,8 @@ You can create groups in areas such as the users area under your domain name or 
 1. Create a new GPO called "Account lockout Policy" under your domain in the Group Policy Objects section.
 2. Then right click this GPO > Edit > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy.
 3. Here you can confiure your settings and apply where you desire.
-![image](https://github.com/user-attachments/assets/65f1b9ff-0eb6-4456-bf3c-f7af0adc2408)
+<img width="689" height="141" alt="image" src="https://github.com/user-attachments/assets/e70753d3-e6af-4b0b-8564-63283ce503d9" />
+
 
 
 
