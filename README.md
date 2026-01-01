@@ -1,4 +1,4 @@
-# Active-Directory Project
+# Active Directory Project
 ❗More details on the Extneded Active Directory project can be found on my Linkedin https://www.linkedin.com/in/mahmutsaglam/details/projects/
 
 In this project I am going to go through Active Directory and it's useful features that are important and widely used in IT environments in a variety of use of cases. Some of the topics that are going to be covered in this project are;
