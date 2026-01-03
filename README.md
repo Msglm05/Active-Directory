@@ -42,26 +42,26 @@ In this project I am going to go through Active Directory and it's useful featur
 You can create groups in areas such as the users area under your domain name or areas such as your organisational units
 1. Locate where you want to create the group and right click > Group
 2. Enter group name, you can then move created users to this group and set configuartions such as assigning permissions, security policies and more.
-3. For example, for your organisational unit for IT you can assign a group policy object that installs IT Specific software
+3. For example, for your an IT Organisational Unit, you can assign a group policy object that installs IT Specific software
 ## Creating Organisational units
 1. Open Active Directory Users and Computers 
-2. Find your domain name from the lists > right click > New > Organisational Unit
+2. Find your domain name from the list > right click > New > Organisational Unit
 3. Name your Organisational Unit, for example "Departments"
 4. Under this Parent OU, You can create Sub OU's for your departments with the same process, for example IT
 5. Then within the IT department you can configure objects such as users, computers, printers etc through the same process
 ## Creating Group Policy Objects 
 1. On the server machine go to settings, under Administrative Tools select Group Policy Management
 2. Under the domain, go to group policy objects 
-3. For testing purposes, create a folder on a drive of the server machine, for example on drive C. Right click the folder that you have created > properties > sharing (share over the network) > advanced sharing (NTFS permissions), here you can share the folder and set permissions
-4. NTFS Permissions can then be used to enforce what users are able to do with the files/folders
+3. For testing purposes, create a folder on the server machine. Right click the folder that you have created > properties > sharing and share the folder.
+4. The advanced security tab (NTFS Permissions) can then be used to enforce what users are able to do with the files within the folder.
    
 ![Screenshot 2025-05-28 074532](https://github.com/user-attachments/assets/f1f6aa2e-9d71-4882-a36d-886cc498e913)
 
-4. Open up Group Policy Management > under domain locate Group Policy Objects > right click and new > then name, e.g. Mapped drive for HR
-5. Right click Mapped drive > edit > under User Configuration Expand preferences > expand Windows Settings > then locate Drive Maps
-6. Right click empty space > New > Mapped Drive > set the option to create > put in the file path of the shared folder that you created > assign a drive letter and then press apply
-7. You can then link this Mapped Drive GPO under you Organisational units that you have created in Active directory
-8. You can do this by locating the OU in the Group Policy Management console > right click > link existing GPO
+5. Open up Group Policy Management > under domain locate Group Policy Objects > right click and new > then name, e.g. Mapped drive for HR
+6. Right click Mapped drive > Edit > User Configuration > Preferences > Windows Settings > then locate Drive Maps
+7. Right click empty space > New > Mapped Drive > set the option to create > put in the file path of the shared folder that you created > assign a drive letter and then press apply
+8. You can then link this Mapped Drive GPO under you Organisational units that you have created in Active directory
+9. You can do this by locating the OU in the Group Policy Management console > right click > link existing GPO
 ![Screenshot 2025-05-28 075801](https://github.com/user-attachments/assets/6b961d27-a1c6-49c2-99eb-d31ae8dc7253)
 ## Setting account lockout policy
 1. Create a new GPO called "Account lockout Policy" under your domain in the Group Policy Objects section
